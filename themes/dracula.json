@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "name": "Dracula",
+  "description": "最受歡迎的暗色主題 — 紫粉青三色經典",
+  "author": "cyberpunk-statusline",
+  "colors": {
+    "bg_primary": "#282A36",
+    "bg_panel": "#44475A",
+    "accent_1": "#8BE9FD",
+    "accent_2": "#FF79C6",
+    "accent_3": "#BD93F9",
+    "warning": "#FFB86C",
+    "alert": "#FF5555",
+    "separator": "#6272A4",
+    "dim": "#6272A4"
+  },
+  "symbols": {
+    "nerd": {
+      "model": "󰚩", "context": "󰍛", "rate_5h": "", "rate_7d": "󰔟",
+      "directory": "", "git": "", "time": "",
+      "bar_filled": "█", "bar_empty": "░"
+    },
+    "unicode": {
+      "model": "⬡", "context": "◈", "rate_5h": "⚡", "rate_7d": "⟳",
+      "directory": "⌁", "git": "⎇", "time": "◷",
+      "bar_filled": "█", "bar_empty": "░"
+    },
+    "ascii": {
+      "model": "[M]", "context": "[C]", "rate_5h": "[!]", "rate_7d": "[~]",
+      "directory": "[D]", "git": "[G]", "time": "[T]",
+      "bar_filled": "#", "bar_empty": "."
+    }
+  },
+  "blocks": {
+    "model":     { "color": "accent_1", "bg": "bg_panel" },
+    "context":   { "color": "accent_2", "bg": "bg_panel" },
+    "rate_5h":   { "color": "accent_3", "bg": "bg_panel" },
+    "rate_7d":   { "color": "accent_1", "bg": "bg_panel" },
+    "directory": { "color": "accent_2", "bg": "bg_panel" },
+    "git":       { "color": "accent_1", "bg": "bg_panel" },
+    "time":      { "color": "accent_1", "bg": "bg_primary" }
+  }
+}
