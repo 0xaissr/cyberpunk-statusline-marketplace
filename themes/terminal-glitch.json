@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "name": "Terminal Glitch",
+  "description": "駭客終端 — 極暗底色配高對比霓虹",
+  "author": "cyberpunk-statusline",
+  "colors": {
+    "bg_primary": "#020312",
+    "bg_panel": "#252A3F",
+    "accent_1": "#24F0FF",
+    "accent_2": "#FF5C8A",
+    "accent_3": "#FFE45E",
+    "warning": "#FFA03C",
+    "alert": "#FF3232",
+    "separator": "#444444",
+    "dim": "#666666"
+  },
+  "symbols": {
+    "nerd": {
+      "model": "󰚩", "context": "󰍛", "rate_5h": "", "rate_7d": "󰔟",
+      "directory": "", "git": "", "time": "",
+      "bar_filled": "█", "bar_empty": "░"
+    },
+    "unicode": {
+      "model": "⬡", "context": "◈", "rate_5h": "⚡", "rate_7d": "⟳",
+      "directory": "⌁", "git": "⎇", "time": "◷",
+      "bar_filled": "█", "bar_empty": "░"
+    },
+    "ascii": {
+      "model": "[M]", "context": "[C]", "rate_5h": "[!]", "rate_7d": "[~]",
+      "directory": "[D]", "git": "[G]", "time": "[T]",
+      "bar_filled": "#", "bar_empty": "."
+    }
+  },
+  "blocks": {
+    "model":     { "color": "accent_1", "bg": "bg_panel" },
+    "context":   { "color": "accent_2", "bg": "bg_panel" },
+    "rate_5h":   { "color": "accent_3", "bg": "bg_panel" },
+    "rate_7d":   { "color": "accent_1", "bg": "bg_panel" },
+    "directory": { "color": "accent_2", "bg": "bg_panel" },
+    "git":       { "color": "accent_1", "bg": "bg_panel" },
+    "time":      { "color": "accent_1", "bg": "bg_primary" }
+  }
+}
